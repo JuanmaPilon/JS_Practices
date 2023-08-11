@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      for (let i = 0; i <= 14; i++) {
+        let numero = Math.round(Math.random() * 100 + 1);
+        if (numero <= 60 ) {
+            document.write(`Resultado 1: ${numero} <br>`);
+        } else if (numero <= 90) {
+            document.write(`Resultado X: ${numero} <br>`);
+        } else {
+            document.write(`Resultado 2: ${numero} <br>`);
+        }
+        document.write(`'Resultado ${contador}: ${numero} <br>`);
+      }
+    </script>
+
+  </body>
+</html>
