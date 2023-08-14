@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        letra = '';
+        string = prompt("Ingresa el string a invertir");
+        stringInvertido = '';
+        for (let i=0;i<string.length;i++){
+            letra = string.charAt(i);
+            stringInvertido = letra + stringInvertido;
+        }
+        document.write(stringInvertido);
+    </script>
+</body>
+</html>
