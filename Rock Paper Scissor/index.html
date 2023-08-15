@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var contador = 0;
+        var contadorIA = 0;
+        var opt = prompt('Bienvenido a un simple Piedra Papel o Tijeras. \nEl primero en llegar a 10pts gana \n Ingresa que deseas jugar:\n -PI(Piedra) \n -PA(Papel) \n -TI(Tijeras)');
+        let optIA = Math.round((Math.random() * 2));
+        if ((opt == 'PI' || opt == 'pi') && optIA == 0){
+            alert('Ambos tuvieron piedra, empate');
+            contador++;
+            contadorIA++;
+        } else if ((opt == 'PI' || opt == 'pi') && optIA == 1){
+            alert('Pierdes, IA saco papel');
+            contadorIA++;
+        } else if ((opt == 'PI' || opt == 'pi') && optIA == 2){
+            alert('Ganas, IA saco tijeras');
+        } else  if ((opt == 'PA' || opt == 'pa') && optIA == 1){
+            alert('Ambos tuvieron piedra, empate');
+            contador++;
+            contadorIA++;
+        } else if ((opt == 'PA' || opt == 'pa') && optIA == 2){
+            alert('Pierdes, IA saco tijeras');
+            contadorIA++;
+        } else if ((opt == 'PA' || opt == 'pa') && optIA == 1){
+            alert('Ganas, IA saco piedra');
+        } else if ((opt == 'TI' || opt == 'ti') && optIA == 2){
+            alert('Ambos tuvieron tijera, empate');
+            contador++;
+            contadorIA++;
+        } else if ((opt == 'TI' || opt == 'ti') && optIA == 0){
+            alert('Pierdes, IA saco piedra');
+            contadorIA++;
+        } else if ((opt == 'TI' || opt == 'ti') && optIA == 1){
+            alert('Ganas, IA saco papel');
+        }
+    </script>
+</body>
+</html>
