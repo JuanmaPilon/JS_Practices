@@ -7,15 +7,15 @@
   </head>
   <body>
     <script>
-      var contador = 0;
-      var contadorIA = 0;
+      let contador = 0;
+      let contadorIA = 0;
       while (contador < 10 && contadorIA < 10) {
         var optIA = Math.round(Math.random() * 2);
         var opt = prompt(
           "Bienvenido a un simple Piedra Papel o Tijeras. \nEl primero en llegar a 10pts gana \n Ingresa que deseas jugar:\n -PI(Piedra) \n -PA(Papel) \n -TI(Tijeras)"
         );
         game();
-        alert(`${contador} -- ${contadorIA}`);
+        alert(`Jugador: ${contador}pts -- IA: ${contadorIA}pts`);
       }
       if (contador => 10) {
             alert('Jugador gano la partida! :D');
