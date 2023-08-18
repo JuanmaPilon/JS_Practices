@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function minMaxPotenciado(min, max) {
+        let arr = [];
+        for (let i = 0; i <= 100; i++) {
+          let res = Math.floor(Math.random() * max);
+          while (res < min || arr.includes(res)) {
+            res = Math.floor(Math.random() * max);
+          }
+          arr.push(res);
+        }
+        return arr;
+      }
+      let min = prompt("Ingrese un minimo");
+      let max = prompt("Ingrese un maximo");
+      while (min < 1 || max > 1000) {
+        alert("Debe ingresar una opcion valida");
+        min = prompt("Ingrese un minimo");
+        max = prompt("Ingrese un maximo");
+      }
+      let resultado = minMaxPotenciado(min, max);
+      document.write(resultado);
+    </script>
+  </body>
+</html>
