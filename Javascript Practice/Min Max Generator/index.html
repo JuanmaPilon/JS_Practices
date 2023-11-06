@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // Solucion alternativa!!!!
+//         function aleatorio(min, max){
+//     var numero = Math.round((Math.random() * (max - min)) + min);
+//     return numero;
+//   }
+//   var minimo = Number(prompt("Introduce el mínimo"));
+//   var maximo = Number(prompt("Introduce el máximo"));
+//   var resultado = aleatorio(minimo, maximo);
+//   document.write(resultado);
+
+
+        function minMax (min,max) {
+            let numRan = Math.round(Math.random() * max)
+            while (numRan < 1) {
+                numRan = Math.round(Math.random() * max)
+            }
+            return numRan;
+        }
+        let min = prompt('Ingrese un minimo');
+        let max = prompt('Ingrese un maximo');
+        while (min <1 || max >100){
+            alert('Debe ingresar valores entre 1 y 100');
+             min = prompt('Ingrese un minimo');
+             max = prompt('Ingrese un maximo');
+        }
+        let res = minMax(min, max);
+        document.write(res);
+    </script>
+</body>
+</html>

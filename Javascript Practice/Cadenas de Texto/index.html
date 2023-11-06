@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          function mensaje ()  {
+            let palabras = prompt("Ingrese una palabra o escriba 'No' para cancelar( finaliza ingreso ).");
+            return palabras;
+    }
+        let stringsito = '';
+        let palabras = mensaje();
+
+        while (palabras !== "No"){
+            if(stringsito == ''){
+                stringsito = palabras;
+                palabras = mensaje();
+            } else {
+            stringsito += "--" + palabras;
+            palabras = mensaje();
+            }
+        }
+        alert(stringsito);
+        
+    </script>
+</body>
+</html> 
