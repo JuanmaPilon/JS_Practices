@@ -1,12 +1,49 @@
+function addition(a,b){
+/*Return the Sum of Two Numbers
+Create a function that takes two numbers as arguments and returns their sum.
+
+Examples
+addition(3, 2) ➞ 5 
+addition(-3, -6) ➞ -9
+addition(7, 3) ➞ 10 */
+}
+
+function addition(num) {
+	/*Return the Next Number from the Integer Passed
+Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+
+Examples
+addition(0) ➞ 1
+addition(9) ➞ 10
+addition(-3) ➞ -2 */
+}
+
+function convert(minutes) {
+	/* Convert Minutes into Seconds
+Write a function that takes an integer minutes and converts it to seconds.
+
+Examples
+convert(5) ➞ 300
+convert(3) ➞ 180
+convert(2) ➞ 120*/
+}
+
+
 function addUp(num) {
     /*
-    Source: https://edabit.com/challenge/4gzDuDkompAqujpRi
     Create a function that takes a number as an argument. 
     Add up all the numbers from 1 to the number you passed to the function.
-    For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
+    For example, if the input is 4 then your function should return
+     10 because 1 + 2 + 3 + 4 = 10.
     */
 	
 }
+
+
+
+
+
+
 
 
 function minMax(arr) {
