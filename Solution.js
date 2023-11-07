@@ -79,3 +79,22 @@ console.log(lessThan100(50,50));*/
     return [minimum,maximum];
 }
 console.log(minMax([2,7,8,9,10, 999]));*/
+
+/*function sumOfCubes(arr) {
+    sumOf = 0;
+    for (let i=0; i < arr.length ; i++){
+        let cubeNum = arr[i] ** 3;
+        sumOf = sumOf + cubeNum;
+    }
+    return sumOf;
+}
+console.log(sumOfCubes([1,5,9]));*/
+
+/*function repetition (txt, n) {
+    finalText = '';
+    for (let i = 0; i < n; i++) {
+        finalText = finalText + txt;
+    }
+    return finalText;
+}
+console.log(repetition("good",5));*/
