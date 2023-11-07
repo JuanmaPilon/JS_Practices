@@ -1,7 +1,6 @@
 function addition(a,b){
 /*Return the Sum of Two Numbers
 Create a function that takes two numbers as arguments and returns their sum.
-
 Examples
 addition(3, 2) ➞ 5 
 addition(-3, -6) ➞ -9
@@ -9,9 +8,8 @@ addition(7, 3) ➞ 10 */
 }
 
 function addition(num) {
-	/*Return the Next Number from the Integer Passed
+/*Return the Next Number from the Integer Passed
 Create a function that takes a number as an argument, increments the number by +1 and returns the result.
-
 Examples
 addition(0) ➞ 1
 addition(9) ➞ 10
@@ -19,9 +17,8 @@ addition(-3) ➞ -2 */
 }
 
 function convert(minutes) {
-	/* Convert Minutes into Seconds
+/* Convert Minutes into Seconds
 Write a function that takes an integer minutes and converts it to seconds.
-
 Examples
 convert(5) ➞ 300
 convert(3) ➞ 180
@@ -30,25 +27,81 @@ convert(2) ➞ 120*/
 
 
 function addUp(num) {
-    /*
-    Create a function that takes a number as an argument. 
-    Add up all the numbers from 1 to the number you passed to the function.
-    For example, if the input is 4 then your function should return
-     10 because 1 + 2 + 3 + 4 = 10.
-    */
-	
+/*Create a function that takes a number as an argument. 
+Add up all the numbers from 1 to the number you passed to the function.
+For example, if the input is 4 then your function should return
+ 10 because 1 + 2 + 3 + 4 = 10.
+*/
 }
 
+function triArea(base, height) {
+/*Area of a Triangle
+Write a function that takes the base and height of a triangle and return its area.
+Examples
+triArea(3, 2) ➞ 3
+triArea(7, 4) ➞ 14
+triArea(10, 10) ➞ 50*/
+}
 
+function nextEdge(side1, side2) {
+/*Maximum Edge of a Triangle
+Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
+Examples
+nextEdge(8, 10) ➞ 17
+nextEdge(5, 7) ➞ 11
+nextEdge(9, 2) ➞ 10*/
+}
 
+function getFirstValue(arr) {
+/*Return the First Element in an Array
+Create a function that takes an array containing only numbers and return the first element.
+Examples
+getFirstValue([1, 2, 3]) ➞ 1
+getFirstValue([80, 5, 100]) ➞ 80
+getFirstValue([-500, 0, 50]) ➞ -5*/
+}
 
+function points(twoPointers, threePointers) {
+/*Basketball Points
+You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.
+Examples
+points(1, 1) ➞ 5
+points(7, 5) ➞ 29
+points(38, 8) ➞ 100*/
+}
 
+function lessThanOrEqualToZero(num) {
+/*Is the Number Less than or Equal to Zero?
+Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+Examples
+lessThanOrEqualToZero(5) ➞ false
+lessThanOrEqualToZero(0) ➞ true
+lessThanOrEqualToZero(-2) ➞ true*/
+}
 
+function giveMeSomething(a) {
+/*Return Something to Me!
+Write a function that returns the string "something" joined with a space " " and the given argument a.
+Examples
+giveMeSomething("is better than nothing") ➞ "something is better than nothing"
+giveMeSomething("Bob Jane") ➞ "something Bob Jane"
+giveMeSomething("something") ➞ "something something"
+*/
+}
 
+function lessThan100(a, b) {
+/*Less Than 100?
+Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+Examples
+lessThan100(22, 15) ➞ true
+// 22 + 15 = 37
+lessThan100(83, 34) ➞ false
+// 83 + 34 = 117
+lessThan100(3, 77) ➞ true*/
+}
 
 function minMax(arr) {
 	/*
-    Source: https://edabit.com/challenge/Q3n42rEWanZSTmsJm
     Create a function that takes an array of numbers and return both the minimum and maximum numbers, 
     in that order.
     Examples:
@@ -57,6 +110,93 @@ function minMax(arr) {
         minMax([1]) return [1, 1]
     */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function matchHouses(step) {
     /*
