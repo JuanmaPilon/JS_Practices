@@ -148,3 +148,16 @@ function factorial(int) {
         */
     }
 //console.log(factorial(13));
+
+function highestDigit(number) {
+   /* var toString = number.toString();
+    var highNum = 0;
+  for (let i = 0; i < toString.length ; i++ ){
+    if (toString[i] > highNum){
+        highNum = toString[i];
+    }
+  }
+  return parseInt(highNum);
+  */
+  } 
+//console.log(highestDigit(23859));
