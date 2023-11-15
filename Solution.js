@@ -161,3 +161,54 @@ function highestDigit(number) {
   */
   } 
 //console.log(highestDigit(23859));
+
+function matchHouses(step){
+    /*
+    let fosforos = 0;
+    let n = step - 1;
+    if (step == 1) {
+        return fosforos = step * 6;
+    } else {
+        return fosforos = (step * 6) - n;
+    }
+    */
+}
+//console.log(matchHouses(87));
+
+/*function findLargestNum(arr){
+    maxNums = [];
+    numInArr = 0;
+    for (let i = 0; i < arr.length ; i++){
+        for (let j = 0; j < arr[i].length; j ++){
+            if (arr[i][j] > numInArr) {
+                numInArr = arr[i][j];
+            }      
+        }
+        return maxNums.push(numInArr);
+    }
+    return maxNums;
+}
+console.log(findLargestNum([14,24,700],[67,12]));*/
+
+function invertirPalabra(palabra) {
+    /*
+    let invertida = '';
+    for (let i = palabra.length - 1; i >= 0 ; i--) {
+        invertida = palabra[i] + invertida;
+    }
+    return invertida;
+    */
+} 
+//console.log(invertirPalabra("holacomoestas"));
+
+function invertirArray(arr) {
+    /*
+    let arrInv = arr.split(" ");
+    let newArr = [];
+    for (i = arrInv.length - 1; i >=0 ; i--) {
+        newArr.push(arrInv[i]);
+    }
+    return newArr;
+    */
+}
+//console.log(invertirArray('Hola Carlangitas como estas?'));

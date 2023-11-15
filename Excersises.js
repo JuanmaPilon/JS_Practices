@@ -165,88 +165,17 @@ function highestDigit(number) {
     */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function matchHouses(step) {
+    /*
+    This challenge will help you interpret mathematical relationships both algebraically and geometrically.
+    Create a function that takes a number (step) as an argument and returns the number of matchsticks in that step. 
+    See step 1, 2 and 3 in this image: https://edabit-challenges.s3.amazonaws.com/matchstick_houses.png
+    Examples: 
+        matchHouses(1) return 6
+        matchHouses(4) return 21
+        matchHouses(87) return 436
+    */
+}
 
 function matchHouses(step) {
     /*
@@ -259,6 +188,101 @@ function matchHouses(step) {
         matchHouses(87) return 436
     */
 }
+
+function findLargestNums(arr) {
+	/*
+    Create a function that takes an array of arrays with numbers. 
+    Return a new (single) array with the largest numbers of each.
+    Examples:
+        findLargestNums([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]) ➞ [7, 90, 2]
+        findLargestNums([[-34, -54, -74], [-32, -2, -65], [-54, 7, -43]]) ➞ [-34, -2, 7]
+        findLargestNums([[0.4321, 0.7634, 0.652], [1.324, 9.32, 2.5423, 6.4314], [9, 3, 6, 3]]) ➞ [0.7634, 9.32, 9]
+    Notes:
+        Watch out for negative integers (numbers).
+    */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -283,19 +307,7 @@ function cardHide(card) {
 }
 
 
-function findLargestNums(arr) {
-	/*
-    Source: https://edabit.com/challenge/h7LTMAFeNz79rXB2Y
-    Create a function that takes an array of arrays with numbers. 
-    Return a new (single) array with the largest numbers of each.
-    Examples:
-        findLargestNums([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]) ➞ [7, 90, 2]
-        findLargestNums([[-34, -54, -74], [-32, -2, -65], [-54, 7, -43]]) ➞ [-34, -2, 7]
-        findLargestNums([[0.4321, 0.7634, 0.652], [1.324, 9.32, 2.5423, 6.4314], [9, 3, 6, 3]]) ➞ [0.7634, 9.32, 9]
-    Notes:
-        Watch out for negative integers (numbers).
-    */
-}
+
 
 
 function countVowels(str) {
