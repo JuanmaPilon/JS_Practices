@@ -175,20 +175,21 @@ function matchHouses(step){
 }
 //console.log(matchHouses(87));
 
-/*function findLargestNum(arr){
+function findLargestNum(arr){/*
     maxNums = [];
-    numInArr = 0;
     for (let i = 0; i < arr.length ; i++){
+        let numInArr = 0;
         for (let j = 0; j < arr[i].length; j ++){
             if (arr[i][j] > numInArr) {
                 numInArr = arr[i][j];
             }      
         }
-        return maxNums.push(numInArr);
+        maxNums.push(numInArr);
     }
     return maxNums;
+    */
 }
-console.log(findLargestNum([14,24,700],[67,12]));*/
+//console.log(findLargestNum([[14,24,700],[67,12],[1000,10,599]]));
 
 function invertirPalabra(palabra) {
     /*
@@ -212,3 +213,31 @@ function invertirArray(arr) {
     */
 }
 //console.log(invertirArray('Hola Carlangitas como estas?'));
+
+function countVowels(str) {
+    /*
+    let cont = 0;
+    for (let i=0;i<str.length;i++) {
+        if (str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u'){
+            cont++;
+        }
+    }
+    return "La cantidad de vocales son: " + cont;
+    */
+}
+//console.log(countVowels("Boludoski y la bella"));
+
+function timeForMilkAndCookies(date) {
+    /*
+    let dia = date.getDate();
+    let mes = date.getMonth();
+
+    if (mes === 11 && dia === 24) {
+        return true;
+    } else {
+        return "Its not time for milk and cookies :("
+    }
+    */
+}
+//console.log(timeForMilkAndCookies(new Date(3000, 11, 24)));
+//console.log(timeForMilkAndCookies(new Date(2023, 0, 23)));
