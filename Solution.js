@@ -241,3 +241,15 @@ function timeForMilkAndCookies(date) {
 }
 //console.log(timeForMilkAndCookies(new Date(3000, 11, 24)));
 //console.log(timeForMilkAndCookies(new Date(2023, 0, 23)));
+
+function numberToArrayOfDigits(int) {
+    /*
+    let toStr = int.toString();
+    let toArr = [];
+    for (let i=0;i<toStr.length;i++){
+        toArr.push(parseInt(toStr[i]));
+    }
+    return toArr;
+    */
+}
+//console.log(numberToArrayOfDigits(640023));
