@@ -227,6 +227,12 @@ function timeForMilkAndCookies(date) {
     */
 }
 
+function numberToArrayOfDigits(int) {
+    /*
+    Write a function that takes a number (int) as argument. Split int into its individual digits and return them in an array. 
+    Tipp: you might want to change the type of the number for the splitting.
+    */
+}
 
 
 
@@ -474,14 +480,6 @@ function sortDrinkByPrice(drinks) {
         ]
     The output of the sorted drinks object will be:
         sortDrinkByPrice(drinks) ➞ [{name: "lime", price: 10}, {name: "lemonade", price: 50}]
-    */
-}
-
-function numberToArrayOfDigits(int) {
-    /*
-    Source: https://www.jschallenger.com/javascript-practice/javascript-fundamentals/split-number-into-digits
-    Write a function that takes a number (int) as argument. Split int into its individual digits and return them in an array. 
-    Tipp: you might want to change the type of the number for the splitting.
     */
 }
 
