@@ -253,3 +253,26 @@ function numberToArrayOfDigits(int) {
     */
 }
 //console.log(numberToArrayOfDigits(640023));
+
+function getOnlyEvens(nums) {
+    /*
+    let newArr = [];
+    for (let i = 0; i < nums.length ; i++) {
+        if (nums[i] % 2 == 0) {
+            newArr.push(nums[i]);
+        }
+    }
+    return newArr;
+    */
+}
+//console.log(getOnlyEvens([6,4,88,0,93,7,1,2,5]));
+
+function sumOfDigits(int) {
+   let toStr = int.toString();
+   let total = 0;
+   for (let i = 0 ; i < toStr.length ; i++) {
+        total = total + parseInt(toStr[i]);
+   }
+   return total;
+}
+console.log(sumOfDigits(6684));

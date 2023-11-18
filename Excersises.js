@@ -234,6 +234,22 @@ function numberToArrayOfDigits(int) {
     */
 }
 
+function getOnlyEvens(nums) {
+	/*
+    Given an array of numbers, return an array which contains all the even numbers in the original array, 
+    which also have even indices.
+    Examples:
+        getOnlyEvens([1, 3, 2, 6, 4, 8]) ➞ [2, 4]
+        getOnlyEvens([0, 1, 2, 3, 4]) ➞ [0, 2, 4]
+        getOnlyEvens([1, 2, 3, 4, 5]) ➞ []
+    */
+}
+
+function sumOfDigits(int) {
+    /*
+    Write a function that takes a number (int) as argument. Split int into its individual digits and return the sum of them. 
+    */
+}
 
 
 
@@ -410,17 +426,7 @@ function removeVowels(str) {
 }
 
 
-function getOnlyEvens(nums) {
-	/*
-    Source: https://edabit.com/challenge/6MZx5RqKYkFaogeAQ
-    Given an array of numbers, return an array which contains all the even numbers in the original array, 
-    which also have even indices.
-    Examples:
-        getOnlyEvens([1, 3, 2, 6, 4, 8]) ➞ [2, 4]
-        getOnlyEvens([0, 1, 2, 3, 4]) ➞ [0, 2, 4]
-        getOnlyEvens([1, 2, 3, 4, 5]) ➞ []
-    */
-}
+
 
 
 function amplify(num) {
@@ -480,12 +486,5 @@ function sortDrinkByPrice(drinks) {
         ]
     The output of the sorted drinks object will be:
         sortDrinkByPrice(drinks) ➞ [{name: "lime", price: 10}, {name: "lemonade", price: 50}]
-    */
-}
-
-
-function sumOfDigits(int) {
-    /*
-    Write a function that takes a number (int) as argument. Split int into its individual digits and return the sum of them. 
     */
 }
