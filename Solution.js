@@ -268,11 +268,42 @@ function getOnlyEvens(nums) {
 //console.log(getOnlyEvens([6,4,88,0,93,7,1,2,5]));
 
 function sumOfDigits(int) {
+    /*
    let toStr = int.toString();
    let total = 0;
    for (let i = 0 ; i < toStr.length ; i++) {
         total = total + parseInt(toStr[i]);
    }
    return total;
+   */
 }
-console.log(sumOfDigits(6684));
+//console.log(sumOfDigits(6684));
+
+function amplify(num) {
+    /*
+    let arr = [];
+    let aux = 0;
+
+    for (let i = 1; i <= num ; i++){
+
+        if (i % 4 == 0){
+            aux = i * 10;
+            arr.push(aux);
+        } else {
+            arr.push(i);
+        }
+    }
+    return arr;
+    */
+}
+//console.log(amplify(14));
+
+function createPyramid (sim, base, altura) {
+    let row = "";
+    let col = "";
+    for (let i = 0; i < altura ; i++) {
+        for (let j = 0; j < base ; j++) {
+        }
+    }
+}
+createPyramid("a",6,8);
