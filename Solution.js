@@ -297,13 +297,24 @@ function amplify(num) {
     */
 }
 //console.log(amplify(14));
-
-function createPyramid (sim, base, altura) {
-    let row = "";
-    let col = "";
-    for (let i = 0; i < altura ; i++) {
-        for (let j = 0; j < base ; j++) {
-        }
-    }
+ 
+function potatoes(str) {
+    /*
+    let palabra = str.match(/potato/ig);
+    return palabra ? palabra.length : 0;
+    */
 }
-createPyramid("a",6,8);
+//console.log(potatoes("potatopotatoapppllepotato"));
+
+function sumAll(arr) {
+    /*
+    let min = Math.min(...arr);
+    let max = Math.max(...arr);
+    let tot = 0;
+    for (let i = min ; i <= max ; i++) {
+      tot = tot + i;
+    }
+    return tot;
+    */
+  }
+//console.log(sumAll([1, 4]));
