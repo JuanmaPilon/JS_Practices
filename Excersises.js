@@ -286,94 +286,8 @@ function potatoes(str) {
     */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function cardHide(card) {
 	/*
-    Source: https://edabit.com/challenge/rtpvAqFT3koqMoFCJ
     Write a function that takes a credit card number and only displays the last four characters. 
     The rest of the card number must be replaced by ************.
     Examples:
@@ -385,6 +299,122 @@ function cardHide(card) {
         The length of the string must remain the same as the input.
     */
 }
+
+
+function numeroPrimoSum(n) {
+/*
+Escribe una función en JavaScript que tome un
+ número entero positivo como parámetro y devuelva la suma 
+ de todos los números primos menores o iguales a ese número.
+
+Puedes utilizar bucles, condicionales y funciones auxiliares 
+si es necesario. Trata de optimizar tu solución para que sea 
+eficiente en términos de rendimiento.
+*/ 
+}
+
+function palindromeishon(palabra) {
+    /*
+    Escribe una función en JavaScript que tome una cadena 
+    como parámetro y devuelva true si la cadena es un 
+    palíndromo y false en caso contrario. Un palíndromo 
+    es una palabra, frase o secuencia que se lee igual hacia 
+    adelante que hacia atrás, sin tener en cuenta espacios, 
+    puntuación o mayúsculas/minúsculas.
+
+Por ejemplo:
+
+"oso" es un palíndromo.
+"anita lava la tina" es un palíndromo.
+Puedes utilizar bucles, funciones de cadena y 
+cualquier otro concepto que consideres necesario para 
+implementar la lógica de verificación de palíndromos.
+     */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

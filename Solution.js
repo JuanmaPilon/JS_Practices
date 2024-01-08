@@ -320,17 +320,7 @@ function sumAll(arr) {
 //console.log(sumAll([1, 4]));
 
 function cardHide(card) {
-	/*
-    Write a function that takes a credit card number and only displays the last four characters. 
-    The rest of the card number must be replaced by ************.
-    Examples:
-        cardHide("1234123456785678") ➞ "************5678"
-        cardHide("8754456321113213") ➞ "************3213"
-        cardHide("35123413355523") ➞ "**********5523"
-    Notes: 
-        Ensure you return a string.
-        The length of the string must remain the same as the input.
-    */
+
 }
 
 function cardHide(card) {
@@ -345,3 +335,41 @@ function cardHide(card) {
     */
 }
 //console.log(cardHide(1231321231231312));
+
+function numeroPrimoSum(n) {
+    /*
+    let suma = 0;
+    if (n > 0) {
+      for (let i = 1; i < n; i++) {
+        if (n % i === 0) {
+          suma += i;
+        }
+      }
+      return suma;
+    } else {
+      console.log("error");
+    }
+    */
+  }
+  
+//console.log(numeroPrimoSum(9));
+
+function palindromeishon(palabra) {
+
+    //USANDO AUXILIARES (MAS FACIL)
+
+    /*
+    let inv = palabra.split('')
+    let invertida = inv.reverse();
+    let enString = invertida.join('');
+    if (palabra === enString) {
+        return true;
+    } else {
+        return false;
+    }
+    */
+}
+
+
+
+//console.log(palindromeishon('oso'));
