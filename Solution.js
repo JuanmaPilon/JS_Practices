@@ -389,3 +389,48 @@ function palindromeishon(palabra) {
 }
 
 //console.log(palindromeishon('oso'));
+
+function SumaParImp(n) {
+   /* let par = 0;
+    let impar = 0;
+    let res = {
+        pares: par,
+        impares: impar
+    };
+    for (let i=1;i<=n;i++) {
+        if(i % 2 == 0) {
+            par += i;
+        } else {
+            impar += i;
+        }
+    }
+    res = {pares: par,impares: impar}
+    return res;
+    */
+}
+//console.log(SumaParImp(3));
+
+function arrayPrimos(a,b) {
+    /*
+    res = [];
+
+        //auxiliar para saber que si son primos
+    function esPrimo(num) {
+        for (let i = 2; i < num; i++) {
+            if (num % i === 0) {
+                return false;
+            }
+        }
+        return num > 1;
+    }
+
+
+    for(let i=a;i<=b;i++){
+        if(esPrimo(i)) {
+            res.push(i);
+        }
+    }
+    return res;
+    */
+}
+//console.log(arrayPrimos(10,20));

@@ -332,7 +332,34 @@ implementar la lógica de verificación de palíndromos.
      */
 }
 
+function SumaParImp(n) {
+    /*Escribe una función en JavaScript
+     que tome un número entero positivo como
+      parámetro y devuelva un objeto que contenga la 
+      suma de los números pares y la suma de los números 
+      impares hasta ese número.
 
+Por ejemplo, si el número es 5, la función debería 
+devolver un objeto como este:
+
+    pares: 6, // (2 + 4)
+  impares: 9 // (1 + 3 + 5)
+  */
+}
+
+function arrayPrimos(a,b) {
+    /*
+    Escribe una función en JavaScript que tome 
+    dos números enteros positivos como parámetros y devuelva 
+    un array que contenga todos los números primos en
+     ese rango (inclusive). Asegúrate de manejar correctamente
+     los casos en los que los números proporcionados no 
+     sean enteros positivos.
+
+Por ejemplo, si la función recibe los números 10 y 20 como
+ parámetros, debería devolver [11, 13, 17, 19] ya que esos son
+  los números primos en ese rango. */
+}
 
 
 
