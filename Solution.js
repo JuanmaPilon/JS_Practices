@@ -370,6 +370,22 @@ function palindromeishon(palabra) {
     */
 }
 
+function palindromeishon(palabra) {
 
+    // USANDO UN BUCLE, RECORRO Y COMPARO
+
+    /*
+    let separada = palabra.split('');
+    let invertida = '';
+    for (let i = separada.length - 1 ; i >= 0 ; i--) {
+        invertida += separada[i];
+    }
+    if (palabra === invertida){
+    return true;
+    } else {
+        return false;
+    }
+    */    
+}
 
 //console.log(palindromeishon('oso'));
