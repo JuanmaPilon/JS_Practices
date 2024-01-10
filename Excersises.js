@@ -361,7 +361,20 @@ Por ejemplo, si la función recibe los números 10 y 20 como
   los números primos en ese rango. */
 }
 
+function fibonacci(num) {
+    /*
+    Ejercicio: Fibonacci Recursivo
 
+Escribe una función en JavaScript que tome un 
+número n como parámetro y devuelva el enésimo 
+número de la secuencia de Fibonacci. La secuencia de 
+Fibonacci es una serie de números en la que cada número es la 
+suma de los dos anteriores. La secuencia comienza con 0 y 1.
+
+Por ejemplo, la secuencia de Fibonacci hasta 
+los primeros 10 términos es: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34.
+    */
+}
 
 
 

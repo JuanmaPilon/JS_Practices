@@ -1,20 +1,20 @@
-function addition(a,b){
-    /*
+function addition(a, b) {
+  /*
     let sum = a + b;
     return sum;
     */
 }
 //console.log(addition(6,7));
 
-function addition(num){
-    /*
+function addition(num) {
+  /*
     return num + 1;
     */
 }
 //console.log(addition(6));
 
-function convert(minutes){
-    /*
+function convert(minutes) {
+  /*
     secs = minutes * 60;
     return secs;
     */
@@ -22,7 +22,7 @@ function convert(minutes){
 //console.log(convert(60));
 
 function addUp(num) {
-    /*
+  /*
     let suma = 0;
     for (let i=1;i<=num;i++){
         suma += i;
@@ -33,34 +33,34 @@ function addUp(num) {
 //console.log(addUp(4));
 
 function triArea(base, height) {
-    /*
+  /*
     return area = (base * height) / 2;
     */
 }
 //console.log(triArea(7,4));
 
 function nextEdge(side1, side2) {
-    /*
+  /*
 	return (side1 + side2) - 1;
     */
 }
 //console.log(nextEdge(9,2));
 
 function getFirstValue(arr) {
-    /*
+  /*
 	return firstElm = arr[0];
     */
 }
 
 function points(twoPointers, threePointers) {
-    /*
+  /*
 	let totalPoints = (twoPointers * 2) + (threePointers * 3);
     return totalPoints;
     */
 }
 
 function lessThanOrEqualToZero(num) {
-    /*
+  /*
 	if (num <= 0) {
 		return true;
 	} else {
@@ -70,14 +70,14 @@ function lessThanOrEqualToZero(num) {
 }
 
 function giveMeSomething(a) {
-    /*
+  /*
 	let word = "something" + " " + a;
 	return word;
     */
 }
 
 function lessThan100(a, b) {
-    /*
+  /*
 	var total = a + b;
     if (total < 100) {
         return true;
@@ -90,7 +90,7 @@ function lessThan100(a, b) {
 //console.log(lessThan100(50,50));
 
 function minMax(arr) {
-    /*
+  /*
     let minimum = arr[0];
     let maximum = arr[0];
     for (let i = 1; i < arr.length ; i++){
@@ -106,7 +106,7 @@ function minMax(arr) {
 //console.log(minMax([2,7,8,9,10, 999]));
 
 function sumOfCubes(arr) {
-    /*
+  /*
     sumOf = 0;
     for (let i=0; i < arr.length ; i++){
         let cubeNum = arr[i] ** 3;
@@ -117,8 +117,8 @@ function sumOfCubes(arr) {
 }
 //console.log(sumOfCubes([1,5,9]));
 
-function repetition (txt, n) {
-    /*
+function repetition(txt, n) {
+  /*
     finalText = '';
     for (let i = 0; i < n; i++) {
         finalText = finalText + txt;
@@ -129,7 +129,7 @@ function repetition (txt, n) {
 //console.log(repetition("good",5));
 
 function calcularEdadMayor(a) {
-    /*
+  /*
     if (a >= 18) {
         return console.log("Es mayor de edad");
     } else {
@@ -140,17 +140,17 @@ function calcularEdadMayor(a) {
 //console.log(calcularEdadMayor(19));
 
 function factorial(int) {
-    /*let sum = 1;
+  /*let sum = 1;
     for (let i = int ; i > 0 ; i--) {
         sum = sum * i;
         }
         return sum;
         */
-    }
+}
 //console.log(factorial(13));
 
 function highestDigit(number) {
-   /* var toString = number.toString();
+  /* var toString = number.toString();
     var highNum = 0;
   for (let i = 0; i < toString.length ; i++ ){
     if (toString[i] > highNum){
@@ -159,11 +159,11 @@ function highestDigit(number) {
   }
   return parseInt(highNum);
   */
-  } 
+}
 //console.log(highestDigit(23859));
 
-function matchHouses(step){
-    /*
+function matchHouses(step) {
+  /*
     let fosforos = 0;
     let n = step - 1;
     if (step == 1) {
@@ -175,7 +175,8 @@ function matchHouses(step){
 }
 //console.log(matchHouses(87));
 
-function findLargestNum(arr){/*
+function findLargestNum(arr) {
+  /*
     maxNums = [];
     for (let i = 0; i < arr.length ; i++){
         let numInArr = 0;
@@ -192,18 +193,18 @@ function findLargestNum(arr){/*
 //console.log(findLargestNum([[14,24,700],[67,12],[1000,10,599]]));
 
 function invertirPalabra(palabra) {
-    /*
+  /*
     let invertida = '';
     for (let i = palabra.length - 1; i >= 0 ; i--) {
         invertida = palabra[i] + invertida;
     }
     return invertida;
     */
-} 
+}
 //console.log(invertirPalabra("holacomoestas"));
 
 function invertirArray(arr) {
-    /*
+  /*
     let arrInv = arr.split(" ");
     let newArr = [];
     for (i = arrInv.length - 1; i >=0 ; i--) {
@@ -215,7 +216,7 @@ function invertirArray(arr) {
 //console.log(invertirArray('Hola Carlangitas como estas?'));
 
 function countVowels(str) {
-    /*
+  /*
     let cont = 0;
     for (let i=0;i<str.length;i++) {
         if (str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u'){
@@ -228,7 +229,7 @@ function countVowels(str) {
 //console.log(countVowels("Boludoski y la bella"));
 
 function timeForMilkAndCookies(date) {
-    /*
+  /*
     let dia = date.getDate();
     let mes = date.getMonth();
 
@@ -243,7 +244,7 @@ function timeForMilkAndCookies(date) {
 //console.log(timeForMilkAndCookies(new Date(2023, 0, 23)));
 
 function numberToArrayOfDigits(int) {
-    /*
+  /*
     let toStr = int.toString();
     let toArr = [];
     for (let i=0;i<toStr.length;i++){
@@ -255,7 +256,7 @@ function numberToArrayOfDigits(int) {
 //console.log(numberToArrayOfDigits(640023));
 
 function getOnlyEvens(nums) {
-    /*
+  /*
     let newArr = [];
     for (let i = 0; i < nums.length ; i++) {
         if (nums[i] % 2 == 0) {
@@ -268,7 +269,7 @@ function getOnlyEvens(nums) {
 //console.log(getOnlyEvens([6,4,88,0,93,7,1,2,5]));
 
 function sumOfDigits(int) {
-    /*
+  /*
    let toStr = int.toString();
    let total = 0;
    for (let i = 0 ; i < toStr.length ; i++) {
@@ -280,7 +281,7 @@ function sumOfDigits(int) {
 //console.log(sumOfDigits(6684));
 
 function amplify(num) {
-    /*
+  /*
     let arr = [];
     let aux = 0;
 
@@ -297,9 +298,9 @@ function amplify(num) {
     */
 }
 //console.log(amplify(14));
- 
+
 function potatoes(str) {
-    /*
+  /*
     let palabra = str.match(/potato/ig);
     return palabra ? palabra.length : 0;
     */
@@ -307,7 +308,7 @@ function potatoes(str) {
 //console.log(potatoes("potatopotatoapppllepotato"));
 
 function sumAll(arr) {
-    /*
+  /*
     let min = Math.min(...arr);
     let max = Math.max(...arr);
     let tot = 0;
@@ -316,15 +317,13 @@ function sumAll(arr) {
     }
     return tot;
     */
-  }
+}
 //console.log(sumAll([1, 4]));
 
-function cardHide(card) {
-
-}
+function cardHide(card) {}
 
 function cardHide(card) {
-    /* primero que siempre me olvido
+  /* primero que siempre me olvido
     let inStringPlz = card.toString();
     // primero parte todo, menos los ultimos 4 y luego reemplaza todo por *
 	let hidden = inStringPlz.slice(0, -4).replace(/./g, "*");
@@ -337,7 +336,7 @@ function cardHide(card) {
 //console.log(cardHide(1231321231231312));
 
 function numeroPrimoSum(n) {
-    /*
+  /*
     let suma = 0;
     if (n > 0) {
       for (let i = 1; i < n; i++) {
@@ -350,15 +349,13 @@ function numeroPrimoSum(n) {
       console.log("error");
     }
     */
-  }
-  
+}
+
 //console.log(numeroPrimoSum(9));
 
 function palindromeishon(palabra) {
-
-    //USANDO AUXILIARES (MAS FACIL)
-
-    /*
+  //USANDO AUXILIARES (MAS FACIL)
+  /*
     let inv = palabra.split('')
     let invertida = inv.reverse();
     let enString = invertida.join('');
@@ -371,10 +368,8 @@ function palindromeishon(palabra) {
 }
 
 function palindromeishon(palabra) {
-
-    // USANDO UN BUCLE, RECORRO Y COMPARO
-
-    /*
+  // USANDO UN BUCLE, RECORRO Y COMPARO
+  /*
     let separada = palabra.split('');
     let invertida = '';
     for (let i = separada.length - 1 ; i >= 0 ; i--) {
@@ -385,13 +380,13 @@ function palindromeishon(palabra) {
     } else {
         return false;
     }
-    */    
+    */
 }
 
 //console.log(palindromeishon('oso'));
 
 function SumaParImp(n) {
-   /* let par = 0;
+  /* let par = 0;
     let impar = 0;
     let res = {
         pares: par,
@@ -410,8 +405,8 @@ function SumaParImp(n) {
 }
 //console.log(SumaParImp(3));
 
-function arrayPrimos(a,b) {
-    /*
+function arrayPrimos(a, b) {
+  /*
     res = [];
 
         //auxiliar para saber que si son primos
@@ -434,3 +429,16 @@ function arrayPrimos(a,b) {
     */
 }
 //console.log(arrayPrimos(10,20));
+
+function fibonacci(num) {
+  /*
+  let res = [];
+  const fibo = (n) => (n <= 1 ? n : fibo(n - 1) + fibo(n - 2));
+
+  for (let i = 0; i < num ; i++) {
+    res.push(fibo(i));
+  }
+  return res;
+  */
+}
+//console.log(fibonacci(10));
