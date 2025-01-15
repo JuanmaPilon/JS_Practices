@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var iva = iva || 21;
+        function cacularIVA(precio,IVA) {
+            var ivaCalculado = precio + (precio*IVA/100);
+            return ivaCalculado;
+        }
+        var precio = parseFloat(prompt("Por favor ingrese el pressio"));
+        var IVA = parseFloat(prompt('Ingrese el IVA'));
+        if (IVA > 0){
+            var res = cacularIVA(precio,IVA);
+        } else {
+            var res = cacularIVA(precio,iva);
+        }
+        document.write('El precio calculado con el iva es de: ' + res);
+    </script>
+</body>
+</html>
