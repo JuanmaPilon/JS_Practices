@@ -442,3 +442,66 @@ function fibonacci(num) {
   */
 }
 //console.log(fibonacci(10));
+
+// PARA LOS SIGUIENTES EJERCICIOS USANDO MAP,REDUCE, ETC, crear un array que contenga los mismos numeros que el array dado, pero multiplicados x2
+
+  function porDos() {
+    // const numeros = [1, 2, 3, 4, 5];
+    // let newNumeros = numeros.map((num) => {
+    //   return num * 2;
+    // });
+    // return newNumeros;
+  }
+
+  //console.log(porDos());
+
+// Crea un array partiendo del array dado, que contenga solo las palabras con menos de 5 letras
+
+ function Frutitas() {
+//   const palabras = ['manzana', 'banana', 'uva', 'naranja', 'kiwi'];
+//   let newFrutita = palabras.filter((fru) => {
+//     if(fru.length < 5) {
+//       return fru;
+//     }
+//   });
+//   return newFrutita;
+ }
+
+//  console.log(Frutitas());
+
+
+
+//Calcula la suma de todos los numeros del array
+
+function Sumita() {
+  // const numeros = [1, 2, 3, 4, 5];
+  // let total = numeros.reduce((tot, num) => {
+  //   return  tot + num;
+  // },0);
+  // return total
+}
+
+// console.log(Sumita());
+
+// //Encuentra el primer numero par del array
+// const numeros = [1, 3, 5, 6, 7, 8];
+
+// //Calcular el valor total de transacciones cuyo valor es superior a $100
+// const transacciones = [
+//     { descripcion: 'Surtido', valor: 75 },
+//     { descripcion: 'Ropa', valor: 150 },
+//     { descripcion: 'Electronica', valor: 200 },
+//     { descripcion: 'Libros', valor: 30 },
+//     { descripcion: 'Muebles', valor: 300 }
+//   ];
+
+//   //Crear un array a partor del array dado, donde los numeros pares esten multiplicados x2, y remueve del array resultante  aquellos valores mayores a 10
+//   const numeros = [2, 5, 8, 12, 15, 18, 20];
+
+//   //Calcular el valor total de todos los prductos, retornar como objeto
+//   const productos = [
+//     { name: 'Manzana', precio: 1.5 },
+//     { name: 'Banana', precio: 0.75 },
+//     { name: 'Naranja', precio: 2.0 },
+//     { name: 'Uvas', precio: 3.5 }
+//   ];
