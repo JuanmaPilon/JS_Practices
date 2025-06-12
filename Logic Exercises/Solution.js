@@ -443,7 +443,8 @@ function fibonacci(num) {
 }
 //console.log(fibonacci(10));
 
-// PARA LOS SIGUIENTES EJERCICIOS USANDO MAP,REDUCE, ETC, crear un array que contenga los mismos numeros que el array dado, pero multiplicados x2
+// PARA LOS SIGUIENTES EJERCICIOS USANDO MAP,REDUCE,FILTER,ETC
+// Crear un array que contenga los mismos numeros que el array dado, pero multiplicados x2
 
   function porDos() {
     // const numeros = [1, 2, 3, 4, 5];
@@ -455,6 +456,7 @@ function fibonacci(num) {
 
   //console.log(porDos());
 
+// PARA LOS SIGUIENTES EJERCICIOS USANDO MAP,REDUCE,FILTER,ETC
 // Crea un array partiendo del array dado, que contenga solo las palabras con menos de 5 letras
 
  function Frutitas() {
@@ -470,7 +472,7 @@ function fibonacci(num) {
 //  console.log(Frutitas());
 
 
-
+// PARA LOS SIGUIENTES EJERCICIOS USANDO MAP,REDUCE,FILTER,ETC
 //Calcula la suma de todos los numeros del array
 
 function Sumita() {
@@ -483,21 +485,67 @@ function Sumita() {
 
 // console.log(Sumita());
 
+// PARA LOS SIGUIENTES EJERCICIOS USANDO MAP,REDUCE,FILTER,ETC
 // //Encuentra el primer numero par del array
-// const numeros = [1, 3, 5, 6, 7, 8];
 
+function EncontrarPar() {
+  // const numeros = [1, 3, 5, 6, 7, 8];
+  // const par = numeros.find((num) => {
+  //   return num % 2 === 0;
+  // });
+  // return par;
+}
+
+// console.log(EncontrarPar());
+
+
+// PARA LOS SIGUIENTES EJERCICIOS USANDO MAP,REDUCE,FILTER,ETC
 // //Calcular el valor total de transacciones cuyo valor es superior a $100
-// const transacciones = [
+
+function calcularTransa() {
+// const trans = [
 //     { descripcion: 'Surtido', valor: 75 },
 //     { descripcion: 'Ropa', valor: 150 },
 //     { descripcion: 'Electronica', valor: 200 },
 //     { descripcion: 'Libros', valor: 30 },
 //     { descripcion: 'Muebles', valor: 300 }
 //   ];
+//   const totalTran = trans.reduce((tot,num) => {
+//     if(num.valor >= 100) {
+//    return tot += num.valor;
+//     }
+//     return tot; //ACORDARMEEEEE DE DEVOLVER EL VALOR DEL ACUMULADOR IGUAL!!!
+//   },0)
+//   return totalTran
+}
 
-//   //Crear un array a partor del array dado, donde los numeros pares esten multiplicados x2, y remueve del array resultante  aquellos valores mayores a 10
-//   const numeros = [2, 5, 8, 12, 15, 18, 20];
+console.log(calcularTransa());
 
+
+// PARA LOS SIGUIENTES EJERCICIOS USANDO MAP,REDUCE,FILTER,ETC
+//Crear un array a partor del array dado, donde los numeros pares esten multiplicados x2, y remueve del array resultante  aquellos valores mayores a 10
+
+  function paresRemo() {
+    // const numeros = [2, 5, 8, 12, 15, 18, 20];
+
+    // const total = numeros.map((num) => {
+    //   if(num % 2 === 0){
+    //     return num * 2; 
+    //   }
+    // });
+
+    // const filtrados = total.filter((num) => {
+    //   if(num < 10) {
+    //     return num
+    //   }
+    // })
+
+    // return filtrados;
+  }
+
+console.log(paresRemo());
+
+// PARA LOS SIGUIENTES EJERCICIOS USANDO MAP,REDUCE,FILTER,ETC
 //   //Calcular el valor total de todos los prductos, retornar como objeto
 //   const productos = [
 //     { name: 'Manzana', precio: 1.5 },
